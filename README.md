@@ -5,7 +5,7 @@
 
 
   
-  <h2 align="center"> Hakkında </h2>  
+  <h2 align="center"> :magic_wand: Hakkında </h2>  
   
   İnsanların bir araya gelerek rol yapıp zar attıkları meşhur Dungeons&Dragons masa oyunu temalı, oyunun kurallarını ve içeriklerini SRD kapsamında
   içeren bir websitesidir. API olarak https://5e-bits.github.io/docs/api burayı kullandım. İnternet bağlantısı olmadan çoğu mekanizma çalışmayacaktır.
