@@ -1,0 +1,17 @@
+{
+  "name": "webtasarimproje",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dice-roller/rpg-dice-roller": "^5.5.0",
+    "@dice-roller/vue": "^1.2.1",
+    "axios": "^1.6.2"
+  }
+}

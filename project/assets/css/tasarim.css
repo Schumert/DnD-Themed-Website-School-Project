@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(../img/background.jpg)
+}
+.page__header {
+    padding: 1px 150px 1px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .475);
+    color: #fff;
+    background-color: #006bc4;
+    min-height: 0;
+    flex-shrink: 0;
+    line-height: 0.1;
+}
+
+nav {
+    /*background-color: #444; */
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.headfonts {
+    width: 100%;
+    overflow: auto;
+
+
+}
+
+.headfonts div {
+    float: left;
+    width: auto;
+}
+
+.nav-link {
+    background-color: rgba(245, 245, 245, 0);
+    color: whitesmoke;
+}
+.nav-link.active {
+    background-color: whitesmoke !important;
+    color: black !important;
+}
+.nav-link:hover {
+    border-color: #012543 !important;
+    color: rgb(121, 111, 111) !important;
+}
+.modal-content {
+    background-color: #525252;
+    color: whitesmoke;
+ }
+ @font-face {
+    font-family: myFirstFont;
+    src: url(abel.ttf);
+  }
+  div {
+    font-family: myFirstFont;
+  }
+ 

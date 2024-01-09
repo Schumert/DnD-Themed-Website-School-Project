@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/tasarim.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/diceFavicon.png">
+    <title>Durumlar</title>
+
+
+    <style>
+        #result {
+            color: whitesmoke;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #252421;
+            border-radius: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+                <span class="fs-4" style="color: whitesmoke;">DND5E. </span>
+                <span class="fs-4"
+                    style="color: whitesmoke; font-size: 15px !important; margin-top: 7px; margin-left: 5px;">Meşhur
+                    "dungeons & dragons" masa oyunu hakkında her şey.</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link">Anasayfa</a></li>
+                <li class="nav-item"><a href="kurallar.html" class="nav-link">Kurallar</a></li>
+                <li class="nav-item"><a href="zarAt.html" class="nav-link">Zar At</a></li>
+                <li class="nav-item"><a href="siniflar.html" class="nav-link">Sınıflar</a></li>
+                <li class="nav-item"><a href="canavarlar.html" class="nav-link">Yaratıklar</a></li>
+                <li class="nav-item"><a href="buyuler.html" class="nav-link">Büyüler</a></li>
+                <li class="nav-item"><a href="durumlar.html" class="nav-link active">Durumlar</a></li>
+
+            </ul>
+        </header>
+    </div>
+
+    <section>
+        <h1 style="text-align: center; color:#F2CA0C ;">DURUMLAR</h1>
+        <div id="result"></div>
+    </section>
+
+    <script src="assets/js/durumlarScript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"
+        integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+
+</body>
+
+</html>

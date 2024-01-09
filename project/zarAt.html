@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/tasarim.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/diceFavicon.png">
+    <title>Zar At</title>
+
+    <style>
+        #background-Zar {
+            background-color: #302e2e00;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 30%;
+            height: max-content;
+            margin-left: 473px;
+
+        }
+
+        
+
+        .style-dice-images {
+            background-color: #000000;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            height: max-content;
+        }
+
+        #container-wrapper {
+            display: flex;
+        }
+
+        .zar-result {
+            margin-top: 0px;
+            margin-left: 98px;
+            padding: 30px;
+            width: 50%;
+            height: 120px;
+            background-color: white;
+            border-radius: 8px;
+            color: whitesmoke;
+        }
+
+        .form-group {
+            margin-left: 86px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4" style="color: whitesmoke;">DND5E. </span>
+            <span class="fs-4" style="color: whitesmoke; font-size: 15px !important; margin-top: 7px; margin-left: 5px;">Meşhur "dungeons & dragons" masa oyunu hakkında her şey.</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link">Anasayfa</a></li>
+            <li class="nav-item"><a href="kurallar.html" class="nav-link">Kurallar</a></li>
+            <li class="nav-item"><a href="zarAt.html" class="nav-link active">Zar At</a></li>
+            <li class="nav-item"><a href="siniflar.html" class="nav-link">Sınıflar</a></li>
+            <li class="nav-item"><a href="canavarlar.html" class="nav-link">Yaratıklar</a></li>
+            <li class="nav-item"><a href="buyuler.html" class="nav-link">Büyüler</a></li>
+            <li class="nav-item"><a href="durumlar.html" class="nav-link">Durumlar</a></li>
+            
+          </ul>
+        </header>
+      </div>
+    <section>
+        <div id="background-Zar">
+            <div id="zarResult" class="zar-result"></div>
+
+            <form class="form-group">
+                <div class="form-floating mb-3">
+                    <input class="form-control" style="width: 6em;" type="text" id="zarInputAmount" placeholder=""
+                        onclick="this.select();">
+                    <label for="zarInputAmount">Kaç Tane</label>
+                </div>
+                <div class="form-floating mb-3" style="margin-top: -74px; margin-left: 120px;">
+                    <input class="form-control" style="width: 6em;" type="text" id="zarInputSide" placeholder=""
+                        onclick="this.select();">
+                    <label for="floatingInput" style="font-size: 15px;">Kaç Yüzlü</label>
+                </div>
+
+
+
+            </form>
+
+            <section>
+                <button class="btn btn-primary rounded-circle p-3 lh-1" type="button" id="atButton"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-check-lg" viewBox="0 0 16 16">
+                        <path
+                            d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                    </svg></button>
+            </section>
+
+
+
+        </div>
+    </section>
+    
+    <div class="card" style="width: 100% !important; margin-top: 50px !important; background-color: #00000000; color: whitesmoke;">
+        <img src="assets/img/dices.png"
+            style="width: 10%; margin-left: 43.5%;" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">20 Yüzlü Zar</h5>
+            <p class="card-text">Bir maceracının savurduğu kılıç ejderhaya zarar verecek mi yoksa çelik gibi pullarından mı
+                sekecek? Ogre bu abartı yalana inanacak mı?
+                Karakter taşkın derede karşıya yüzebilecek mi? Karakter alevtopu patlamasının asıl gücünden
+                kurtulabilecek mi, yoksa alevin tüm hasarını alacak mı? Sonucun belirsiz olduğu
+                tüm durumlarda, başarı ya da başarısızlığı belirlemek için Dungeons & Dragons oyunu yirmi yüzlü bir
+                zarın atımına, yani d20'ye güvenir.</p>
+            <p class="card-text">Oyundaki her karakter ve yaratığın kabiliyetleri 6 yetenek skoru ile gösterilir. 
+                Bu yetenekler Kuvvet, Çeviklik, Dayanıklılık, Zeka, Akıl(Wisdom), ve Karizmadır, 
+                ve çoğu maceracı için bu aralık 3 ve 18 arasındadır. (Yaratıklar için bu aralık 1 ile 30 arasındadır.) 
+                Bu yetenek skorları, ve onlardan elde edilen yetenek bonusları, karakter veya yaratığın adına 
+                atılan neredeyse her d20 zarının temelini oluşturur.</p>
+            <p class="card-text">Yetenek, saldırı ve kurtulma zarları üç temel d20 zarı tipidir, oyunun kurallarının çekirdeğini oluştururlar. 
+                Üçü de şu basit adımları izler.</p>
+            <p class="card-text">
+                1. Zarı at ve bonusu ekle. Bu genellikle altı 
+                yetenek skorundan birinin bonusudur, ve bazen karakterin belirli bir beceri ile 
+                uzmanlığını yansıtmak için uzmanlık bonusunu da içerir.
+            </p>
+            <p class="card-text">
+                2. Durumsal bonus ve cezaları uygula. Bir sınıf özelliği, büyü, belirli bir durum, 
+                veya başka bir etki bu zara bonus ya da ceza verebilir.
+            </p>
+            <p class="card-text">
+                3. Toplamı hedef bir sayıyla karşılaştır. Eğer toplam hedef sayıya eşitse veya aşıyorsa, 
+                yetenek, saldırı, veya kurtulma zarı başarılıdır. Aksi taktirde, başarısızdır. Genellikle hedef sayıyı belirleyen DM olur ve oyunculara yetenek, saldırı ya da kurtulma zarlarının başarılı olup olmadığını söyler.
+            </p>
+            <p class="card-text">
+                Bir yetenek ya da kurtulma zarı için hedef sayıya Difficulty Class (Zorluk Sınıfı) (DC) denir. 
+                Bir saldırı zarı için hedef sayıya Armor Class (Zırh Sınıfı) (AC) denir.
+            </p>
+            <p> Diğer zarlar daha çok verilen hasarı belirlemek için kullanılır. Örn. vurdu mu vurmadı mı belirlemek için 20'lik zar atar, bonuslarla düşmanın AC'sini geçti mi geçmedi mi diye bakarız ve
+                eğer geçtiyse vururuz. Verdiğimiz hasar miktarını belirlemek içinse her silah için ayrı olan bir hasar zarı atarız. Örn. 2d6 atmalıysak bu demektir ki
+                2 tane 6 yüzlü zar atmalıyız. Sonucun üstüne bonuslar eklenir ve hasar belirlenir.  <p>
+            
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/mathjs@11.8.2/lib/browser/math.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/random-js@2.1.0/dist/random-js.umd.min.js"></script>
+    <script src="./node_modules/@dice-roller/rpg-dice-roller/lib/umd/bundle.min.js"></script>
+    <script src="assets/js/zarScript.js"></script>
+
+
+</body>
+
+
+</html>

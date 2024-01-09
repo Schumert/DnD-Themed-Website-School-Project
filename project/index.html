@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/tasarim.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/diceFavicon.png">
+    <title>Ana Sayfa</title>
+
+    <style>
+        body {
+            background-image: none;
+            color: whitesmoke
+        }
+
+        .right {
+
+            border: 1px solid rgb(255, 255, 255);
+            padding: 30px;
+            border-radius: 8px;
+            width: 40%;
+            margin-top: -150px;
+            margin-left: 750px;
+
+        }
+
+        .left {
+
+            border: 1px solid rgb(255, 255, 255);
+            padding: 30px;
+            border-radius: 8px;
+            width: 40%;
+            margin-top: -150px;
+            margin-left: 50px;
+
+        }
+
+        .content-area {
+            position: relative;
+        }
+
+        .content-text {
+            position: absolute;
+            top: 20%;
+            left: 10px;
+            right: 10px;
+            transform: translateY(-50%);
+            color: rgb(22, 21, 21);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+
+
+        }
+
+        .content-text p {
+            font-size: 100% !important;
+        }
+
+        .custom-overlay {
+            position: absolute;
+            top: 0px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background-color: rgba(88, 82, 82, 0.641);
+            /*background-color: #006cc48a;*/
+            opacity: 0;
+            transition: all 400ms ease-in-out;
+            height: 100%;
+
+        }
+
+        .custom-overlay:hover {
+            opacity: 1;
+        }
+
+        .custom-overlay h4 {
+            position: relative;
+            font-size: 30px;
+        }
+
+        .custom-overlay p {
+            position: absolute;
+            font-size: 13px;
+            color: black;
+        }
+
+        @font-face {
+            font-family: head;
+            src: url(beb.ttf);
+        }
+
+        @font-face {
+            font-family: pFont;
+            src: url(assets/css/abel.ttf);
+        }
+
+        h2 {
+            font-family: head;
+        }
+
+        h1 {
+            font-family: head;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+                <span class="fs-4" style="color: whitesmoke;">DND5E. </span>
+                <span class="fs-4"
+                    style="color: whitesmoke; font-size: 15px !important; margin-top: 7px; margin-left: 5px;">Meşhur
+                    "dungeons & dragons" masa oyunu hakkında her şey.</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Anasayfa</a></li>
+                <li class="nav-item"><a href="kurallar.html" class="nav-link">Kurallar</a></li>
+                <li class="nav-item"><a href="zarAt.html" class="nav-link">Zar At</a></li>
+                <li class="nav-item"><a href="siniflar.html" class="nav-link">Sınıflar</a></li>
+                <li class="nav-item"><a href="canavarlar.html" class="nav-link">Yaratıklar</a></li>
+                <li class="nav-item"><a href="buyuler.html" class="nav-link">Büyüler</a></li>
+                <li class="nav-item"><a href="durumlar.html" class="nav-link">Durumlar</a></li>
+
+            </ul>
+        </header>
+    </div>
+
+    <div>
+        <img src="https://www.dndbeyond.com/cms/embers.png" style="width:100%; height: 75em; margin-top: -25px;">
+        <img src="https://www.dndbeyond.com/cms/LOGO_720.png"
+            style="margin-top: -2000px; margin-left: 500px; width: 30%;">
+
+    </div>
+
+    <div>
+        <div class="right">
+            <img src="https://www.dndbeyond.com/cms/player-guide-table-game.png"
+                style="width: 100%; height: 100%; margin-bottom: 10px;">
+            <h2>D&D Nedir?</h2>
+            <p> Dungeons & Dragons insanların bir araya gelerek fantastik dünyalarda istedikleri
+                karakterlerin rolünü yaparak eğlendikleri bir masa oyunudur. Oyun Yöneticisi(GM) oyunun hakemi ve baş
+                hikaye
+                anlatıcısıdır
+                ve bir oyun genelde 1 GM ve 4 oyuncudan oluşur.</p>
+            <p>
+                D&D oyunundaki kolektif yaratıcılık, epik olaylardan bir monty python skeci kıvamında absürt olaylara
+                kadar
+                gidebilecek,
+                tekrar tekrar anlatacağınız hikayeleri inşa eder.
+            </p>
+        </div>
+
+        <div class="left">
+            <img src="https://www.dndbeyond.com/cms/How%20To%20Play%20DnD%20Section-Dragon-750x490-V2.png"
+                style="width: 100%; height: 100%; margin-bottom: 10px;">
+            <h2>Nasıl Oynanır?</h2>
+            <p> D&D özünde bir hikaye anlatma oyunudur. Nasıl göründüğünüzden, ne söylediğinize ve
+                nasıl davrandığınıza kadar her şey sizin kararınızdır.
+                Zarlar sadece bir araçtır.</p>
+            <p>
+                D&D'de her oyuncu, oyunda kendisini temsil edecek kahraman bir karakter yaratır.
+                Uzaylı bir savaşçı, inziva hayatında konuşmayı unutmuş bir keşiş, cehennemden kaçmış bir taksici!
+                Tek sınırınız yaratıcılığınız!
+            </p>
+            <p>
+                Oyun Yöneticisi (Game Master) ve oyuncular birlikte, cesur maceracıların ölümcül tehlikelerle yüzleştiği
+                heyecan verici
+                bir hikaye yaratırlar.
+                Hem GM hem de oyuncular, belirli eylemlerin sonucunu belirlemek için oyun boyunca zar kullanır.
+            </p>
+            <p>
+                Ve unutmayın, kurallar masaya hizmet etmek için vardır. Bazen durup dakikalarca bir kuralı arayıp oyunu
+                bölmektense, o
+                an ne doğru geliyorsa onu uygulamak en doğrusudur.
+            </p>
+        </div>
+
+        <div class="right">
+            <img src="https://www.dndbeyond.com/cms/CreateACharacter_750x490-V1.2.jpg"
+                style="width: 100%; height: 100%; margin-bottom: 10px;">
+            <h2>Oyuncu ol!</h2>
+            <p> Karakterinizi oluşturmak, oyuncular için her D&D macerasının ilk adımıdır.
+                Karakterinizin geçmişini, becerilerini, görünümünü,
+                kişiliğini seçebilecek ve isterseniz bir
+                arka plan hikayesi ekleyebileceksiniz!</p>
+            <p>
+                <a target=”_blank” href ="https://wiki.roll20.net/images/f/f0/5E_OGL_Sheet_Core_v2.6.png">Örnek bir karakter kağıdı</a>
+            </p>
+
+        </div>
+        <div class="left">
+            <img src="https://www.dndbeyond.com/cms/DM%20section_Prisoner13-750x490-a.png"
+                style="width: 100%; height: 100%; margin-bottom: 10px;">
+            <h2>GM Ol!</h2>
+            <p> Dungeons & Dragons'da bir kişi, oyunun baş hikaye anlatıcısı ve hakemi olan GM(game-master) veya diğer
+                bir adıyla DM(dungeon-master)olarak görev yapar.
+                GM, tehlikeleri yönlendirir ve oyuncuların kararları doğrultusunda oyunu yönetir</p>
+            <p>
+                GM, macera kitaplarındaki açıklamaları kullanarak veya direkt kafasından bir maceradaki yerleri ve
+                yaratıkları anlatır ve oyuncular karakterlerinin ne yapmasını istediklerine karar verirler.
+                GM, oyuncuların eylemlerinin sonuçlarını belirlemek için hayal gücünü ve oyun kurallarını kullanır ve
+                oyuncuların yaşadıklarını anlatır.
+            </p>
+            <p>
+                GM ve oyuncular birbirleriyle doğaçlama yaptıkları için D&D
+                son derece esnektir ve her macera heyecan verici ve beklenmedik olabilir.
+            </p>
+
+        </div>
+    </div>
+
+
+
+    <div style="margin-top: 150px; margin-left: -30px;">
+        <h1 style="text-align: center; margin-top: 50px; color: #d0d0d0;"><a href="siniflar.html"
+                style="color: whitesmoke;">Sınıflar</a></h1>
+        <div class="home-slider owl-carousel owl-theme" style="width: 60em; margin-left: 17em;">
+            <div class="content-area"> <img src="assets/img/barbarian.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Barbar</h4>
+                        <p>Savaşın şiddetiyle hiddet durumuna geçebilen azılı bir savaşçı.</p>
+
+                        <p style="top: 500%;">Barbarların savaş alanındaki yılmaz performanslarına şahit oldum,
+                            öfkelerinin merkezinde neyin olduğunu merak ediyorum.
+                            — Seret, Baş Büyücü</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/bard.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Ozan</h4>
+                        <p>Gücü yaradılışın müziğini yansıtan ilham verici bir sihirbaz.</p>
+
+                        <p style="top: 350%;">Müzik, Yaratılışın Sözleri ile titreyen kutsal ağacın meyvesidir. Fakat
+                            size
+                            soracağım soru şudur, bir ozan bu ağacın köküne gidebilir mi? Biri bu gücün kaynağına
+                            erişebilir
+                            mi? Ah, işte o zaman bu dünyaya getirecekleri müzik nasıl olurdu!
+                            — Fletcher Danairia, Üstad Ozan</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/cleric.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Ruhban</h4>
+                        <p>Daha yüce bir gücün hizmetinde ilahi büyü kullanan bir rahip şampiyonu</p>
+
+                        <p style="top: 350%;">Bir ruhban olmak tanrıların elçisi olmak demektir. Tanrıların sunduğu güç
+                            yücedir, ama bu daima zorlu yükümlülükler de getirir.
+                            — Patrik Riggby</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/druid.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Druid</h4>
+                        <p>Doğanın güçlerini kullanan ve hayvan formlarını benimseyen Eski İnanç'ın bir rahibi</p>
+
+                        <p style="top: 300%; font-size: 13px !important;">Ölümde bile, her varlık Yüce Dengeyi korumak
+                            için üzerine
+                            düşeni yapar. Ama şimdi bir dengesizlik yükselişte, doğa üzerinde kontrolü sağlamak isteyen
+                            bir
+                            güç. Ölümlü ırkların yıkıcı davranışıdır bu. Eylemleri onları doğadan ne kadar
+                            uzaklaştırırsa,
+                            etkileri o kadar yozlaştırıcı olur. Druidler olarak biz aslen Yüce Dengeyi koruyabilmek
+                            adına
+                            savunur ve eğitiriz, ama bazen tehlikeye karşı gelip ondan kurtulmamız gereken zamanlar
+                            olur.
+                            — Başdruid Safhran</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/fighter.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Savaşçı</h4>
+                        <p>Çeşitli silahlar ve zırhlar kullanma becerisine sahip bir dövüş ustası.</p>
+
+                        <p style="top: 600%;">Konuşmanız bittiğinde bana haber verin.
+                            — Tordek</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/monk.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Keşiş</h4>
+                        <p>Fiziksel ve ruhsal mükemmellik arayışında vücudun gücünden yararlanan bir dövüş sanatları
+                            ustası.
+                        </p>
+
+                        <p style="top: 450%;">Sükunetimi zulmünün kabulü ile karıştırma. Sen bağırıp tehditler
+                            savururken,
+                            ben çıplak ellerimle boynunu kırmak için dört ayrı plan yaptım.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/paladin.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Paladin</h4>
+                        <p>Kutsal bir yemine bağlı kutsal bir savaşçı.</p>
+
+                        <p style="top: 400%;">Bir paladinin değeri alt ettiği düşmanlar veya yağmaladığı zindanlar ile
+                            ölçülmez. Kurtarılan hayatlar ve merhamet ve adalet yoluna çevrilmiş gönüller ile ölçülür.
+                            — Isteval</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/ranger.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Kolcu</h4>
+                        <p>Medeniyetin sınırlarındaki tehditlerle mücadele eden bir savaşçı.</p>
+
+                        <p style="top: 350%;">Vaktimin çoğunu medeniyetten uzakta geçiririm, onu korumak için
+                            sınırlarında
+                            kalırım. Kralına diz çökmediğim için onun güvenliği sağlansın diye tüm şövalyelerinin
+                            toplamından fazla çalışmadığımı düşünme sakın.
+                            — Soveliss</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/rogue.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Düzenbaz</h4>
+                        <p>Engelleri ve düşmanları aşmak için gizlilik ve hile kullanan bir alçak.</p>
+
+                        <p style="top: 450%;">Bazen tozlu bir mezara girmenin asıl amacının orada saklanmış hazineleri
+                            çıkarmak olduğu unutuluyor. Dövüşmek ahmakların işidir. Ölüler servetlerini harcayamaz.
+                            — Barnabas Bladecutter</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/sorcerer.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Sihirbaz</h4>
+                        <p>Doğuştan gelen bir armağan veya soyundan gelen doğal büyüyü kullanan alaylı bir büyücü.</p>
+
+                        <p style="top: 500%;">Pratik ve çalışma amatörler içindir. Gerçek güç doğuştan gelir.
+                            — Hennet, Tiamat'ın evladı</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/warlock.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Warlock</h4>
+                        <p>Gücünü boyut dışı bir varlıkla yapılan bir pazarlıktan elde eden bir büyücü</p>
+
+                        <p style="top: 400%;">Benim deli olduğumu mu düşünüyorsun? Bence gerçek delilik, güç ve bilgi
+                            öte
+                            diyarlarda alınmayı beklerken ölümlü yaşamının angaryası ile yetinmektir.
+                            — Acamar'ın Elçisi Xarren</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/wizard2.png" height="400em" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Büyücü</h4>
+                        <p>Gerçekliğin yapılarını değiştirebilen, yıllarını büyü çalışmalarına adamış bir büyücü</p>
+
+                        <p style="top: 400%;">Büyücülük anlayış gerektirir. Büyünün neden ve nasıl işlediğinin bilgisi
+                            ve
+                            bizim bu anlayışı geliştirme çabamız, yüzyıllardır medeniyetteki gelişmeleri ortaya çıkardı.
+                            — İllüzyonist Gimble</p>
+                    </span>
+                </span>
+            </div>
+        </div>
+
+        <h1 style="text-align: center; margin-top: 100px; color: #d0d0d0;"> Irklar</h1>
+
+        <div class="home-slider owl-carousel owl-theme" style="width: 55em; margin-left: 20em;">
+            <div class="content-area"> <img src="assets/img/dragonborn.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Ejderdoğan</h4>
+                        <p>Klana ve becerilere her şeyin üstünde değer veren gururlu bir ırk. Bir zamanlar Ejderhalar'ın
+                            köleleriydiler, kendi kendilerine yetmeye çalışılar, kimseye, hatta tanrılara bile borçlu
+                            olmak
+                            istemezler.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/dwarf.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Cüce</h4>
+                        <p>Cesur ve dayanıklı cüceler yetenekli savaşçılar, madenciler ve taş ve metal işçileri olarak
+                            bilinir.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/elf.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Elf</h4>
+                        <p>Elfler, dünyada yaşayan ama tamamen onun bir parçası olmayan, uhrevi zarafete sahip büyülü
+                            bir
+                            halktır.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/gnome.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Gnome</h4>
+                        <p>Küçük, zeki ve enerjik gnome'lar, uzun yaşamlarını Faerûn'un en parlak köşelerini ve en
+                            karanlık
+                            derinliklerini keşfetmek için kullanırlar.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/half-elf.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Yarı-elf</h4>
+                        <p>Yarı-elfler, bazılarının söylediğine göre elf ve insan ebeveynlerinin en iyi niteliklerine
+                            sahiptirler.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/halfling.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Buçukluk</h4>
+                        <p>Küçük ama yetenekli buçukluklar evin ve ocağın konforunu tercih ederler; ancak doğal şansları
+                            ve
+                            el becerileri onları iyi maceracılar yapar.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/half-orc.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Yarı-ork</h4>
+                        <p>Yoğun duyguya sahip yaratıklar olan yarı orklar, ister vücutlarını yakan öfkenin onları
+                            savaşmaya
+                            itmesi, ister kalplerini dolduran sevginin inanılmaz nezaket dolu eylemlere ilham vermesi
+                            olsun,
+                            düşünmekten çok eyleme geçme eğilimindedir.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/human.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>İnsan</h4>
+                        <p>İnsanlar, ortak ırklar arasında en uyumlu ve hırslı halktır. Onları harekete geçiren şey ne
+                            olursa olsun, insanlar dünyaların yenilikçileri, başarılıları ve öncüleridir.</p>
+                    </span>
+                </span>
+            </div>
+            <div class="content-area"> <img src="assets/img/tiefling.png" alt="">
+                <span class="custom-overlay">
+                    <span class="content-text">
+                        <h4>Tiefling</h4>
+                        <p>Dokuz Cehennem'in iblislerinin soyundan gelen Tiefling'ler, Faerun'da sürekli şüpheyle karşı
+                            karşıyadır. Neyseki, gizemli yetenekleri onları doğal olarak hayatta kalmakta uzman hale
+                            getiriyor.</p>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <footer>
+        <p>&copy; 2023 Mert Cesur Web Projesi için D&D Temalı Web Sitesi. Sadece Systems Reference Document (SRD)
+            kapsamındaki içerikleri kapsamaktadır.</p>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"
+        integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+
+</body>
+
+</html>
