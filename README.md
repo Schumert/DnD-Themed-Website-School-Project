@@ -1,4 +1,4 @@
-<img src="https://github.com/Schumert/DnD-Themed-Website-School-Project/blob/main/img/Cabinet-of-Curiosities.jpg" width=100%>
+<img src="https://github.com/Schumert/DnD-Themed-Website-School-Project/blob/main/img/image.jpeg" width=100%>
 
 <h1 align="center">
 :sparkles::crystal_ball:Dungeons&Dragons Temalı Okul Projesi Websiteme Hoşgeldin!:crystal_ball::sparkles:
