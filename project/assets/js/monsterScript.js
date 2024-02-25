@@ -1,5 +1,4 @@
 const monsterInput = document.getElementById("monsterInput");
-const searchButton = document.getElementById("searchButton");
 const monsterResult = document.getElementById("monsterResult");
 
 searchButton.addEventListener("click", () => {
@@ -35,7 +34,7 @@ function searchMonster(monsterName) {
             console.log(monsterData);
             let image = "";
             
-            image = "https://5e.tools/img/MM/" + monsterData.name + ".png";
+            image = "https://5e.tools/img/bestiary/tokens/MM/" + monsterData.name + ".webp";
             
             
             

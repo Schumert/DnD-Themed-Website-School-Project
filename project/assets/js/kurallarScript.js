@@ -1,5 +1,4 @@
 const ruleResult = document.getElementById("ruleResult");
-const onClickButton = document.getElementById("onClickButton");
 const ruleInput = document.getElementById("ruleInput");
 
 searchButton.addEventListener("click", () => {
